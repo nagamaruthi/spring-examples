@@ -1,0 +1,19 @@
+package com.naga;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.naga.bean.EmployeeBean;
+
+public class SpringTest {
+
+	public static void main(String[] args) {
+
+		ClassPathXmlApplicationContext context =
+				new ClassPathXmlApplicationContext("beans.xml");
+		
+		EmployeeBean bean= context.getBean("empBean", EmployeeBean.class);
+		
+		context.close();
+		
+	}
+
+}

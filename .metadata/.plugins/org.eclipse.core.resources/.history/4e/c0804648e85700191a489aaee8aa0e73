@@ -1,0 +1,22 @@
+package com.naga.service;
+
+import com.naga.DAOService;
+
+public class EmployeeService {
+
+	DAOService daoService;
+
+	public DAOService getDaoService() {
+		return daoService;
+	}
+
+	public void setDaoService(DAOService daoService) {
+		this.daoService = daoService;
+	}
+	
+	
+	public String getData() {
+		return "From Dao Service: "+daoService.getData();
+	}
+	
+}

@@ -1,0 +1,11 @@
+package com.naga.impl;
+
+import com.naga.bean.MessageQueueMDB;
+
+public class RabbitMdb implements MessageQueueMDB {
+
+	public String processMessage(String message) {
+		return "Processing from RabbitMq MDB: "+message;
+	}
+
+}

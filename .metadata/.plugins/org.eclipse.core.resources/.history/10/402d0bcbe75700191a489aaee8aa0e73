@@ -1,0 +1,9 @@
+package com.naga;
+
+public class DAOService {
+
+	public void storeData() {
+		
+		System.out.print("Stroing Data");
+	}
+}

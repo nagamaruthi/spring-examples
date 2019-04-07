@@ -1,0 +1,12 @@
+package com.naga.impl;
+
+import com.naga.bean.MessageQueueMDB;
+
+public class NEFTMdb implements MessageQueueMDB {
+
+	public String processMessage(String message) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

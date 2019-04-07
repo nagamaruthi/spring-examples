@@ -1,0 +1,20 @@
+package com.naga.impl;
+
+import com.naga.FileProcessingInterface;
+import com.naga.beans.FileProperties;
+
+public class CSVFileProcessor implements FileProcessingInterface {
+
+	public void processFile() {
+
+		System.out.println("in CSV file Processing...."+fileprops.getFileType());
+	}
+	
+	FileProperties fileprops;
+
+	public CSVFileProcessor(FileProperties fileprops) {
+		super();
+		this.fileprops = fileprops;
+	}
+
+}

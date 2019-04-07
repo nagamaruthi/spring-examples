@@ -1,0 +1,12 @@
+package com.naga.impl;
+
+import com.naga.FileProcessingInterface;
+
+public class CSVFileProcessor implements FileProcessingInterface {
+
+	public void processFile() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

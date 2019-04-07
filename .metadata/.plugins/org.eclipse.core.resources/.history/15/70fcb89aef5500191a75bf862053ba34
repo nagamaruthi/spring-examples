@@ -1,0 +1,15 @@
+package com.naga;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        
+    	ClassPathXmlApplicaitonContext context=new ClassPathXmlApplicaitonContext("applicationcontext.xml");
+    	System.out.println( "Hello World!" );
+    }
+}

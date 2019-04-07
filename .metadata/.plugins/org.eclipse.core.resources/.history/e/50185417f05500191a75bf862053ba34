@@ -1,0 +1,17 @@
+package com.naga;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        
+    	ClassPathXmlApplicationContext context=new ClassPathXmlApplicationContext("applicationcontext.xml");
+    	FileProcessingInterface bean = context.getBean("csvfileProcessorImpl",FileProcessingInterface.class);
+    	System.out.println( "Hello World!...."+bean.processFile() );
+    }
+}

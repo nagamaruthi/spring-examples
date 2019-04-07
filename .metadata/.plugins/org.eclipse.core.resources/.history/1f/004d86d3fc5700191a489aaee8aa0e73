@@ -1,0 +1,8 @@
+package com.naga.bean;
+
+import org.springframework.stereotype.Component;
+
+@Component("empBean")
+public class EmployeeBean {
+
+}

@@ -1,0 +1,5 @@
+package com.naga.config;
+
+public class MyConfiguration {
+
+}

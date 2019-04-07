@@ -1,0 +1,15 @@
+package com.naga.bean;
+
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Component("empBean")
+@Scope("singleton")
+public class EmployeeBean {
+
+	public String getName() {
+		
+		return "Naga";
+	}
+	
+}

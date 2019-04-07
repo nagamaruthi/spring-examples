@@ -1,0 +1,5 @@
+package com.naga.beans;
+
+public class FileProperties {
+
+}

@@ -1,0 +1,11 @@
+package com.naga.impl;
+
+import com.naga.bean.MessageQueueMDB;
+
+public class NEFTMdb implements MessageQueueMDB {
+
+	public String processMessage(String message) {
+		return "Processing from Neft MDB: "+message;
+	}
+
+}
