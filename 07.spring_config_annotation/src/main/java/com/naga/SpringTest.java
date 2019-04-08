@@ -9,7 +9,7 @@ import com.naga.config.MyConfiguration;
 public class SpringTest {
 
 	public static void main(String[] args) {
-
+		
 		/*
 		 * ClassPathXmlApplicationContext context = new
 		 * ClassPathXmlApplicationContext("beans.xml");
